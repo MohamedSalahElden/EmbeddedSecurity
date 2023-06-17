@@ -21,10 +21,16 @@ CryptoLab requires
 
 1. Download and Install the dependencies
 2. Build and Start the server
-    * go to `EmbeddedSecurity\Cryptography\Symmetric Crypto\Labs\implementation`
-    * Build the docker image `docker build -t cryptolab .`
-    * run the docker container `docker run -d -p 5000:5000 cryptolab`
-3. open the `EmbeddedSecurity\Cryptography\Symmetric Crypto\Labs\labCodes\Attacking Symmetric Cryptography systems.ipynb` notebook and start attacking
+   * Pull from docker repository
+      * and follow the instructions on ![cryptolab](https://hub.docker.com/r/mohamedsalah5369/cryptolab)
+      * or 
+         1. pull the image `docker pull mohamedsalah5369/cryptolab`
+         2. run the image `docker run -d -p 5000:5000 mohamedsalah5369/cryptolab:latest`
+   * Or build it yourself 
+       * go to `EmbeddedSecurity\Cryptography\Symmetric Crypto\Labs\implementation`
+       * Build the docker image `docker build -t cryptolab .`
+       * run the docker container `docker run -d -p 5000:5000 cryptolab`
+4. open the `EmbeddedSecurity\Cryptography\Symmetric Crypto\Labs\labCodes\Attacking Symmetric Cryptography systems.ipynb` notebook and start attacking
 
 ## How to communicate with the server
 
