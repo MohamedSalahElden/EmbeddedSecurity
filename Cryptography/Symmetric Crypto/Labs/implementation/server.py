@@ -138,3 +138,4 @@ if __name__ == '__main__':
 
 # docker build -t cryptolab .
 # docker run -d -p 5000:5000 cryptolab 
+# docker tag cryptolab mohamedsalah5369/cryptolab
